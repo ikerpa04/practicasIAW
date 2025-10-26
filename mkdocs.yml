@@ -1,1 +1,13 @@
-site_name: My Docs
+site_name: PracticasIAW
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
+  - Ejercicio1: ex1/u1_ex1_IkerPatino.md
+  - Ejercicio2: ex2/u1_ex2_IkerPatino.md
+  - Practica1: pt1/u1_pt1_IkerPatiño.md
+  - Practica2: pt2/u1_pt2_IkerPatiño.md
+  - Practica3: pt3/u3_pt3_IkerPatiño.md
+  - Practica1: u2_ex1_IkerPatino/u2_ex1_IkerPatino.md
+  - Practica2: u2_ex2_IkerPatino/u2_ex2_IkerPatino.md
+  - Practica3: u2_ex3_IkerPatiño/u2_ex3_IkerPatiño.md
