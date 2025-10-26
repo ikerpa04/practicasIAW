@@ -4,23 +4,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>PracticasIAW</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>u2 ex3 IkerPatiño - PracticasIAW</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">PracticasIAW</a>
+                <a class="navbar-brand" href="../../../..">PracticasIAW</a>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
@@ -49,12 +49,23 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#bienvenidos-a-mis-pracitcas" class="nav-link">Bienvenidos a mis pracitcas</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#unidad-1" class="nav-link">Unidad 1</a>
+            <li class="nav-item" data-level="1"><a href="#creacion-certificado" class="nav-link">Creación Certificado</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+            
+            <li class="nav-item" data-level="1"><a href="#automatizar-creacion-del-certificado-autofirmado" class="nav-link">Automatizar creación del certificado autofirmado</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#consultar-certificado" class="nav-link">Consultar certificado</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#configurar-un-block-ssltsl-en-nginx" class="nav-link">Configurar un Block SSL/TSL en Nginx</a>
+              <ul class="nav flex-column">
               </ul>
             </li>
         </ul>
@@ -62,11 +73,44 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="bienvenidos-a-mis-pracitcas">Bienvenidos a mis pracitcas</h1>
-<p>Estas son mis practicas de la asignatura</p>
-<h2 id="unidad-1">Unidad 1</h2>
-<p>Practicas de la unidad 1
-    - hola</p></div>
+<p><strong>Pràctica 3: Certificat SSL/TLS</strong></p>
+<h1 id="creacion-certificado"><strong>Creación Certificado</strong></h1>
+<p>Crearemos el certificado autofirmado.</p>
+<p><img alt="" src="../img1.png" /></p>
+<p>Luego nos dirá que pongamos unos datos.</p>
+<p><img alt="" src="../img2.png" /></p>
+<h1 id="automatizar-creacion-del-certificado-autofirmado"><strong>Automatizar creación del certificado autofirmado</strong></h1>
+<p>Automatizamos creando un script.</p>
+<p><img alt="" src="../img3.png" /></p>
+<h1 id="consultar-certificado"><strong>Consultar certificado</strong></h1>
+<p>Consultar información del sujeto del certificado.</p>
+<p><img alt="" src="../img4.png" /></p>
+<p>Consultar la fecha de caducidad del certificado.</p>
+<p><img alt="" src="../img5.png" /></p>
+<h1 id="configurar-un-block-ssltsl-en-nginx"><strong>Configurar un Block SSL/TSL en Nginx</strong></h1>
+<p><strong>Configurar el Bloc SSL</strong> Configuramos el sitio seguro ssl.</p>
+<p><img alt="" src="../img6.png" /></p>
+<p><strong>Creamos el sitio seguro</strong> Creamos el siguiente directorio.</p>
+<p><img alt="" src="../img7.png" /></p>
+<p>Creamos el documento de inicio.</p>
+<p><img alt="" src="../img8.png" /></p>
+<p>Aplicamos cambios y reiniciamos el servicio.</p>
+<p><img alt="" src="../img9.png" /></p>
+<p><strong>Verificamos el correcto funcionamiento</strong> Desde un cliente accedemos por IP.</p>
+<p><img alt="" src="../img10.jpeg" /></p>
+<p>Vemos que nos salta una alerta de advertencia, en <em>Avanzado</em> aceptamos el riesgo.</p>
+<p><img alt="" src="../img11.png" /></p>
+<p>Ahora volvemos a entrar con el nombre de la página.</p>
+<p><img alt="" src="../img12.jpeg" /></p>
+<p>Volvemos a realizar el proceso para acceder.</p>
+<p><img alt="" src="../img13.png" /></p>
+<p><strong>Block de redirección de HTTP a HTTPS.</strong></p>
+<p>En el bloque de por defecto <em>default</em> y añadimos las siguientes líneas.</p>
+<p><img alt="" src="../img14.png" /></p>
+<p>Reiniciamos el servicio y entramos en el navegador pero con el enlace con http.</p>
+<p><img alt="" src="../img15.png" /></p>
+<p>Y al buscar, vemos que nos redirigió a https.</p>
+<p><img alt="" src="../img16.png" /></p></div>
             </div>
         </div>
 
@@ -74,14 +118,14 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../../js/bootstrap.min.js"></script>
         <script>
-            var base_url = ".",
+            var base_url = "../../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
+        <script src="../../../../js/base.js"></script>
+        <script src="../../../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -146,8 +190,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.5.3
-Build Date UTC : 2025-10-26 18:46:19.577589+00:00
--->

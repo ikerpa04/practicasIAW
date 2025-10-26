@@ -4,23 +4,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>PracticasIAW</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>u2 ex2 IkerPatino - PracticasIAW</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">PracticasIAW</a>
+                <a class="navbar-brand" href="../../../..">PracticasIAW</a>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
@@ -49,12 +49,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#bienvenidos-a-mis-pracitcas" class="nav-link">Bienvenidos a mis pracitcas</a>
+            <li class="nav-item" data-level="1"><a href="#virtual-hosting-amb-nginx" class="nav-link">Virtual hosting amb nginx</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#unidad-1" class="nav-link">Unidad 1</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -62,11 +58,28 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="bienvenidos-a-mis-pracitcas">Bienvenidos a mis pracitcas</h1>
-<p>Estas son mis practicas de la asignatura</p>
-<h2 id="unidad-1">Unidad 1</h2>
-<p>Practicas de la unidad 1
-    - hola</p></div>
+<p><strong>Pràctica 2: Servir múltiples dominis</strong></p>
+<h1 id="virtual-hosting-amb-nginx"><strong>Virtual hosting amb nginx</strong></h1>
+<p>Copiamos dos veces el fichero de por defecto.</p>
+<p><img alt="" src="../img01.png" /></p>
+<p>Antes de configurar los ficheros, crearemos los enlaces directos.</p>
+<p><img alt="" src="../img02.png" /></p>
+<p>Ahora descargaremos las dos páginas que indicaremos que enfoquen allí.</p>
+<p><img alt="" src="../img03.png" /></p>
+<p>Movemos los ficheros en la carpeta /var/www/.</p>
+<p><img alt="" src="../img04.png" /></p>
+<p>A continuación modificaremos el fichero de configuración de la página1.</p>
+<p><img alt="" src="../img05.jpeg" /></p>
+<p>Ahora añadiremos en el fichero /etc/hosts del equipo principal.</p>
+<p><img alt="" src="../img06.png" /></p>
+<p>Y ahora comprobamos en el navegador.</p>
+<p><img alt="" src="../img07.png" /></p>
+<p>Ahora modificamos el fichero de la página2.</p>
+<p><img alt="" src="../img08.jpeg" /></p>
+<p>Ahora modificamos el fichero /etc/hosts.</p>
+<p><img alt="" src="../img09.png" /></p>
+<p>Y comprobamos en el navegador.</p>
+<p><img alt="" src="../img10.jpeg" /></p></div>
             </div>
         </div>
 
@@ -74,14 +87,14 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../../js/bootstrap.min.js"></script>
         <script>
-            var base_url = ".",
+            var base_url = "../../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
+        <script src="../../../../js/base.js"></script>
+        <script src="../../../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -146,8 +159,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.5.3
-Build Date UTC : 2025-10-26 18:46:19.577589+00:00
--->
