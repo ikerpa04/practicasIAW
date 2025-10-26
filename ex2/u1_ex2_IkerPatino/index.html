@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Practica2 - PracticasIAW</title>
+    <title>Ejercicio2 - PracticasIAW</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Practica2";
-        var mkdocs_page_input_path = "u2_ex2_IkerPatino/u2_ex2_IkerPatino.md";
+        var mkdocs_page_name = "Ejercicio2";
+        var mkdocs_page_input_path = "ex2/u1_ex2_IkerPatino.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -47,8 +47,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../../ex1/u1_ex1_IkerPatino/">Ejercicio1</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../ex2/u1_ex2_IkerPatino/">Ejercicio2</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Ejercicio2</a>
                 </li>
               </ul>
               <ul>
@@ -67,10 +67,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../../u2_ex1_IkerPatino/u2_ex1_IkerPatino/">Practica1</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Practica2</a>
-    <ul class="current">
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../u2_ex2_IkerPatino/u2_ex2_IkerPatino/">Practica2</a>
                 </li>
               </ul>
               <ul>
@@ -91,7 +89,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Practica2</li>
+      <li class="breadcrumb-item active">Ejercicio2</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -100,34 +98,44 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p><strong>Pràctica 2: Servir múltiples dominis</strong></p>
-<h1 id="virtual-hosting-amb-nginx"><strong>Virtual hosting amb nginx</strong></h1>
-<p>Copiamos dos veces el fichero de por defecto.</p>
-<p><img alt="" src="../img01.png" /></p>
-<p>Antes de configurar los ficheros, crearemos los enlaces directos.</p>
-<p><img alt="" src="../img02.png" /></p>
-<p>Ahora descargaremos las dos páginas que indicaremos que enfoquen allí.</p>
-<p><img alt="" src="../img03.png" /></p>
-<p>Movemos los ficheros en la carpeta /var/www/.</p>
-<p><img alt="" src="../img04.png" /></p>
-<p>A continuación modificaremos el fichero de configuración de la página1.</p>
-<p><img alt="" src="../img05.jpeg" /></p>
-<p>Ahora añadiremos en el fichero /etc/hosts del equipo principal.</p>
-<p><img alt="" src="../img06.png" /></p>
-<p>Y ahora comprobamos en el navegador.</p>
-<p><img alt="" src="../img07.png" /></p>
-<p>Ahora modificamos el fichero de la página2.</p>
-<p><img alt="" src="../img08.jpeg" /></p>
-<p>Ahora modificamos el fichero /etc/hosts.</p>
-<p><img alt="" src="../img09.png" /></p>
-<p>Y comprobamos en el navegador.</p>
-<p><img alt="" src="../img10.jpeg" /></p>
+                <p>Iker Patiño Alvarez Implantació d'Aplicacions Web</p>
+<p><strong>Exercici 2: Introducció a Markdown</strong></p>
+<ol>
+<li><strong>Crea una carpeta en un repositori local (creat en l’exercici anterior) que s’anomene IAW_mark- down, que incloga un fitxer README.md.</strong></li>
+</ol>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.001.png" /></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.002.png" /></p>
+<ol>
+<li><strong>Afegeix contingut al fitxer README.md utilitzant tots els elements de la sintaxi de Markdown que hem recordat. Entre altres inclou:</strong></li>
+<li><strong>una imatge al document que sigui un enllaç a una URL externa.</strong></li>
+<li><strong>crea un directori anomenat img al repositori i afegeix una imatge.</strong></li>
+<li><strong>incorpora la imatge que has afegit dins del document.</strong></li>
+</ol>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.003.png" /></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.004.png" /></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.005.png" /></p>
+<ol>
+<li><strong>Crea un nou document markdown al repositori.</strong></li>
+</ol>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.006.png" /></p>
+<ol>
+<li><strong>Crea un enllaç des del fitxer README.md al nou document que acabes de crear</strong></li>
+</ol>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.007.png" /></p>
+<ol>
+<li><strong>Generar un document .pdf a partir del fitxer markdown.md</strong></li>
+</ol>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.008.png" /></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.009.png" /></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.010.jpeg" /></p>
+<p><strong>Ahora después de subirlo a github, podemos comprobar que está todo.</strong></p>
+<p><img alt="" src="../Aspose.Words.8a3aa380-a864-435f-996e-a3b0af02457f.011.jpeg" /></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../u2_ex1_IkerPatino/u2_ex1_IkerPatino/" class="btn btn-neutral float-left" title="Practica1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../../u2_ex3_IkerPati%C3%B1o/u2_ex3_IkerPati%C3%B1o/" class="btn btn-neutral float-right" title="Practica3">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../ex1/u1_ex1_IkerPatino/" class="btn btn-neutral float-left" title="Ejercicio1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../pt1/u1_pt1_IkerPati%C3%B1o/" class="btn btn-neutral float-right" title="Practica1">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -150,10 +158,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../u2_ex1_IkerPatino/u2_ex1_IkerPatino/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../../ex1/u1_ex1_IkerPatino/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../../u2_ex3_IkerPati%C3%B1o/u2_ex3_IkerPati%C3%B1o/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../../pt1/u1_pt1_IkerPati%C3%B1o/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
